@@ -1,12 +1,19 @@
+:root {
+    --color-bg: #F5D6AB;
+    --color-progress-bar: #C66C49;
+}
 html,
 body,
 ul,
 li {
   font-size: 10px;
-  background-color: #ff0000;
 }
 .container {
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
 }
+a {
+  text-decoration: none;
+}
+

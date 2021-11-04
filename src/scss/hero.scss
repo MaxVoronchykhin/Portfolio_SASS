@@ -1,0 +1,51 @@
+.hero {
+    height: 100vh;
+    background-image: url(../Pics/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 93px;
+}
+.logo {
+    color: #FFFFFF;
+    @include text-title;
+}
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+}
+.header-list__link--selected:hover {
+    font-weight: bold;
+}
+.header-list__link {
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+.container-wrapper {
+    display: flex;
+}
+.hero-content {
+    flex-grow: 1;
+    margin-top: 145px;
+}
+.title-primary {
+    @include text-main;
+    margin-bottom: 26px;
+}
+.hero-content__text {
+    @include text-title;
+    margin-bottom: 106px;
+}
+.hero-content__link {
+    @include text-title-thirdy;
+    color: #FFFFFF;
+    text-decoration: 1px underline;
+}

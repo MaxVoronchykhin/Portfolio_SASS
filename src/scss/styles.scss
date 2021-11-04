@@ -1,2 +1,5 @@
-
-@import "reset/reset.scss"
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+@import "reset/reset.scss";
+@import "mixins.scss";
+@import "general.scss";
+@import "hero.scss";
