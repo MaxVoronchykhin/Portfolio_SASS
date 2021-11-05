@@ -16,7 +16,7 @@
 .header-list {
     display: flex;
     justify-content: space-between;
-    gap: 59px;
+    gap: 60px;
 }
 .header-list__link--selected:hover {
     font-weight: bold;
@@ -31,8 +31,11 @@
 }
 .container-wrapper {
     display: flex;
+    flex-direction: column;
 }
 .hero-content {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     margin-top: 145px;
 }
@@ -43,6 +46,7 @@
 .hero-content__text {
     @include text-title;
     margin-bottom: 106px;
+    color: #FFFFFF
 }
 .hero-content__link {
     @include text-title-thirdy;

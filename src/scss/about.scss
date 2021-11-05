@@ -1,0 +1,23 @@
+.title-secondary {
+    @include text-title;
+    color: #333333;
+    margin-top: 93px;
+    margin-bottom: 76px;
+}
+.about__text {
+    font-family: Libre Franklin;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.about__text-down {
+    ont-family: Libre Franklin;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #333333; 
+}

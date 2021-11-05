@@ -73,15 +73,15 @@ a {
 .logo {
   color: #FFFFFF;
   font-family: Libre Franklin;
+  font-weight: bold;
   font-style: normal;
   font-size: 2.4rem;
-  line-height: 1.20833;
-  color: #FFFFFF; }
+  line-height: 1.20833; }
 
 .header-list {
   display: flex;
   justify-content: space-between;
-  gap: 59px; }
+  gap: 60px; }
 
 .header-list__link--selected:hover {
   font-weight: bold; }
@@ -95,9 +95,12 @@ a {
   color: #FFFFFF; }
 
 .container-wrapper {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .hero-content {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
   margin-top: 145px; }
 
@@ -112,11 +115,12 @@ a {
 
 .hero-content__text {
   font-family: Libre Franklin;
+  font-weight: bold;
   font-style: normal;
   font-size: 2.4rem;
   line-height: 1.20833;
-  color: #FFFFFF;
-  margin-bottom: 106px; }
+  margin-bottom: 106px;
+  color: #FFFFFF; }
 
 .hero-content__link {
   font-family: Libre Franklin;
@@ -126,3 +130,30 @@ a {
   line-height: 1.22222;
   color: #FFFFFF;
   text-decoration: 1px underline; }
+
+.title-secondary {
+  font-family: Libre Franklin;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 1.20833;
+  color: #333333;
+  margin-top: 93px;
+  margin-bottom: 76px; }
+
+.about__text {
+  font-family: Libre Franklin;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #333333;
+  margin-bottom: 30px; }
+
+.about__text-down {
+  ont-family: Libre Franklin;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #333333; }
