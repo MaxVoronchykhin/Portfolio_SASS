@@ -4,7 +4,7 @@
     padding-bottom: 145px;
 }
 .skills-content__img {
-    width: 340px;
+    width: 345px;
     height: 350px;
 }
 .skills-content {
@@ -37,12 +37,14 @@
     color: #333333;
 }
 .skills-list-row-text {
+    display: flex;
     font-family: Libre Franklin;
     font-weight: normal;
     font-style: normal;
     font-size: 1.8rem;
     line-height: 1.39;
     color: #333333;
+    align-items: start;
 }
 .Research-progressbar {
     width: 381px;
@@ -51,8 +53,13 @@
 .Design-progressbar {
     width: 381px;
     height: 24px;
+
 }
 .Frontend-progressbar {
     width: 381px;
     height: 24px;
+}
+.skills-list-row-progress-bar-point {
+    background-color: #F5D6AB;
+    
 }

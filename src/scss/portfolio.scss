@@ -1,0 +1,47 @@
+.portfolio {
+    padding-top: 93px;
+}
+.title-thirdy {
+    font-family: Libre Franklin;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.39;
+    color: #333333;
+    margin-bottom: 48px;
+}
+.portfolio-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 125px;
+    margin-bottom: 139px;
+}
+.portfolio-description {
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #333333;
+}
+.portfolio_pics {
+    display: grid;
+    grid-template-columns: 55.12fr 40.15fr;
+    grid-template-rows: 35.2fr 14.5fr 35.2fr;
+    gap: 30px;
+}
+.portfolio-img {
+    width: 100%;
+}
+.boats {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.bridge {
+    grid-area: 1 / 2 / 3 / 3;
+}
+.river {
+    grid-area: 2 / 1 / 4 / 2;
+}
+.building {
+    grid-area: 3 / 2 / 4 / 3;
+}
