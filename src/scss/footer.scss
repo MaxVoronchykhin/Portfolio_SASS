@@ -1,0 +1,38 @@
+.footer {
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 189px
+}
+.title__secondary {
+    @include text-title;
+    margin-bottom: 51px;
+}
+.social-list__item {
+    @include text-title-thirdy;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.social-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.contact-mail {
+    @include text-title-thirdy;
+    color: #333333;
+}
+.contact-phone {
+    font-family: Libre Franklin;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #333333;
+}
