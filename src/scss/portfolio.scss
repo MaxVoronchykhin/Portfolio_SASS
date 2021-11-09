@@ -16,6 +16,15 @@
     gap: 125px;
     margin-bottom: 139px;
 }
+.portfolio-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.arrow-right {
+    transform: rotate(180deg);
+    margin-left: 14px;
+}
 .portfolio-description {
     font-family: Libre Franklin;
     font-weight: 400;

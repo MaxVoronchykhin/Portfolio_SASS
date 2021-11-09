@@ -6,6 +6,11 @@
     color: #333333;
     margin-bottom: 76px;
 }
+@media (max-width: 1100px) {
+    .title-secondary {
+        margin-bottom: 46px;
+    }
+}
 .about__text {
     font-family: Libre Franklin;
     font-weight: normal;
