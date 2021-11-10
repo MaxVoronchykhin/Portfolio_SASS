@@ -1,7 +1,11 @@
 .footer {
     background-color: #FFFAF2;
     padding-top: 93px;
-    padding-bottom: 189px
+    padding-bottom: 189px;
+    @include media-tablet {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
 }
 .title__secondary {
     @include text-title;
@@ -9,6 +13,9 @@
 }
 .social-list__item {
     @include text-title-thirdy;
+    @include media-tablet {
+        font-size: 1.6rem;
+    }
 }
 .footer-content {
     display: grid;
@@ -18,6 +25,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 14px;
+    @include media-tablet {
+        gap: 10px;
+    }
 }
 .contacts-list {
     display: flex;

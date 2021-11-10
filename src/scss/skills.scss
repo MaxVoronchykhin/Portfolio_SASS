@@ -2,6 +2,10 @@
     background-color: #FFFAF2;
     padding-top: 76px;
     padding-bottom: 145px;
+    @include media-tablet {
+        padding-top: 56px;
+        padding-bottom: 100px;
+    }
 }
 .skills-content__img {
     width: 345px;
@@ -11,6 +15,9 @@
     display: flex;
     flex-direction: row;
     gap: 125px;
+    @include media-tablet {
+        gap: 55px;
+    }
 }
 .skills-list {
     width: 635px;
@@ -18,6 +25,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    @include media-tablet {
+        width: 500px;
+    }
 }
 .skills-list-row {
   display: flex;
@@ -45,20 +55,11 @@
     line-height: 1.39;
     color: #333333;
 }
-.Research-progressbar {
-    width: 381px;
-    height: 24px;
-}
-.Design-progressbar {
-    width: 381px;
-    height: 24px;
-
-}
-.Frontend-progressbar {
-    width: 381px;
-    height: 24px;
-}
 .skills-list-row-progress-bar-point {
+    width: 381px;
+    height: 24px;
     background-color: #F5D6AB;
-    
+    @include media-tablet {
+        width: 320px;
+    }
 }

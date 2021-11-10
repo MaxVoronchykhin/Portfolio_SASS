@@ -25,14 +25,12 @@
 
 @mixin media-tablet {
     @media (max-width: 1110px) {
-        .header-list {
-            gap: 20px;
-        }
+        @content; 
     }
 }
 @mixin media-phone {
     @media (max-width: 767px) {
-       
+        @content;
     }
 }
 

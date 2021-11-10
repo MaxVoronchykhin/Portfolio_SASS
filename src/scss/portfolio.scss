@@ -1,5 +1,8 @@
 .portfolio {
     padding-top: 93px;
+    @include media-tablet {
+        padding-top: 55px;
+    }
 }
 .title-thirdy {
     font-family: Libre Franklin;
@@ -9,12 +12,20 @@
     line-height: 1.39;
     color: #333333;
     margin-bottom: 48px;
+    @include media-tablet {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
 }
 .portfolio-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 125px;
     margin-bottom: 139px;
+    @include media-tablet {
+        gap: 65px;
+        margin-bottom: 90px;
+    }
 }
 .portfolio-text {
     display: flex;
@@ -38,6 +49,9 @@
     grid-template-columns: 55.12fr 40.15fr;
     grid-template-rows: 35.2fr 14.5fr 35.2fr;
     gap: 30px;
+    @include media-tablet {
+        gap: 23px;
+    }
 }
 .portfolio-img {
     width: 100%;

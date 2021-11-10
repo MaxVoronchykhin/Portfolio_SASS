@@ -55,14 +55,12 @@ li {
   width: 1107px;
   margin-left: auto;
   margin-right: auto; }
-
-@media (max-width: 1100px) {
-  .container {
-    width: 90%; } }
-
-@media (max-width: 767px) {
-  .container {
-    width: 80%; } }
+  @media (max-width: 1110px) {
+    .container {
+      width: 90%; } }
+  @media (max-width: 767px) {
+    .container {
+      width: 80%; } }
 
 a {
   text-decoration: none; }
@@ -72,6 +70,10 @@ a {
   background-image: url(../Pics/Background.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
+  @media (max-width: 1110px) {
+    .hero {
+      background-image: none;
+      background-color: #ac7630; } }
 
 .header {
   display: flex;
@@ -91,16 +93,7 @@ a {
   justify-content: space-between;
   gap: 60px; }
   @media (max-width: 1110px) {
-    .header-list .header-list {
-      gap: 20px; } }
-
-@media (max-width: 1100px) {
-  .header-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; } }
-  @media (max-width: 1100px) and (max-width: 1110px) {
-    .header-list .header-list {
+    .header-list {
       gap: 20px; } }
 
 .header-list__link--selected:hover {
@@ -132,17 +125,9 @@ a {
   line-height: 1.21875;
   color: #FFFFFF;
   margin-bottom: 26px; }
-
-@media (max-width: 1100px) {
-  .title-primary {
-    font-family: Libre Franklin;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 6.4rem;
-    line-height: 1.21875;
-    color: #FFFFFF;
-    margin-bottom: 26px;
-    text-align: center; } }
+  @media (max-width: 1110px) {
+    .title-primary {
+      text-align: center; } }
 
 .hero-content__text {
   font-family: Libre Franklin;
@@ -152,16 +137,10 @@ a {
   line-height: 1.20833;
   margin-bottom: 106px;
   color: #FFFFFF; }
-
-@media (max-width: 1100px) {
-  .hero-content__text {
-    font-family: Libre Franklin;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 2.4rem;
-    line-height: 1.20833;
-    margin-bottom: 50px;
-    text-align: center; } }
+  @media (max-width: 1110px) {
+    .hero-content__text {
+      margin-bottom: 50px;
+      text-align: center; } }
 
 .hero-content__link {
   font-family: Libre Franklin;
@@ -171,13 +150,15 @@ a {
   line-height: 1.22222;
   color: #FFFFFF;
   text-decoration: 1px underline; }
-
-@media (max-width: 1100px) {
-  .hero-content__link {
-    text-align: center; } }
+  @media (max-width: 1110px) {
+    .hero-content__link {
+      text-align: center; } }
 
 .about {
   padding-top: 76px; }
+  @media (max-width: 1110px) {
+    .about {
+      padding-top: 56px; } }
 
 .title-secondary {
   font-family: Libre Franklin;
@@ -187,10 +168,9 @@ a {
   line-height: 1.20833;
   color: #333333;
   margin-bottom: 76px; }
-
-@media (max-width: 1100px) {
-  .title-secondary {
-    margin-bottom: 46px; } }
+  @media (max-width: 1110px) {
+    .title-secondary {
+      margin-bottom: 46px; } }
 
 .about__text {
   font-family: Libre Franklin;
@@ -200,6 +180,9 @@ a {
   line-height: 1.67;
   color: #333333;
   margin-bottom: 30px; }
+  @media (max-width: 1110px) {
+    .about__text {
+      font-size: 1.6rem; } }
 
 .about__text-down {
   font-family: Libre Franklin;
@@ -209,11 +192,19 @@ a {
   line-height: 1.67;
   color: #333333;
   margin-bottom: 76px; }
+  @media (max-width: 1110px) {
+    .about__text-down {
+      font-size: 1.6rem;
+      margin-bottom: 46px; } }
 
 .skills {
   background-color: #FFFAF2;
   padding-top: 76px;
   padding-bottom: 145px; }
+  @media (max-width: 1110px) {
+    .skills {
+      padding-top: 56px;
+      padding-bottom: 100px; } }
 
 .skills-content__img {
   width: 345px;
@@ -223,6 +214,9 @@ a {
   display: flex;
   flex-direction: row;
   gap: 125px; }
+  @media (max-width: 1110px) {
+    .skills-content {
+      gap: 55px; } }
 
 .skills-list {
   width: 635px;
@@ -230,6 +224,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px; }
+  @media (max-width: 1110px) {
+    .skills-list {
+      width: 500px; } }
 
 .skills-list-row {
   display: flex;
@@ -256,23 +253,19 @@ a {
   line-height: 1.39;
   color: #333333; }
 
-.Research-progressbar {
-  width: 381px;
-  height: 24px; }
-
-.Design-progressbar {
-  width: 381px;
-  height: 24px; }
-
-.Frontend-progressbar {
-  width: 381px;
-  height: 24px; }
-
 .skills-list-row-progress-bar-point {
+  width: 381px;
+  height: 24px;
   background-color: #F5D6AB; }
+  @media (max-width: 1110px) {
+    .skills-list-row-progress-bar-point {
+      width: 320px; } }
 
 .portfolio {
   padding-top: 93px; }
+  @media (max-width: 1110px) {
+    .portfolio {
+      padding-top: 55px; } }
 
 .title-thirdy {
   font-family: Libre Franklin;
@@ -282,12 +275,20 @@ a {
   line-height: 1.39;
   color: #333333;
   margin-bottom: 48px; }
+  @media (max-width: 1110px) {
+    .title-thirdy {
+      font-size: 1.6rem;
+      margin-bottom: 30px; } }
 
 .portfolio-content {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 125px;
   margin-bottom: 139px; }
+  @media (max-width: 1110px) {
+    .portfolio-content {
+      gap: 65px;
+      margin-bottom: 90px; } }
 
 .portfolio-text {
   display: flex;
@@ -311,6 +312,9 @@ a {
   grid-template-columns: 55.12fr 40.15fr;
   grid-template-rows: 35.2fr 14.5fr 35.2fr;
   gap: 30px; }
+  @media (max-width: 1110px) {
+    .portfolio_pics {
+      gap: 23px; } }
 
 .portfolio-img {
   width: 100%; }
@@ -331,6 +335,10 @@ a {
   background-color: #FFFAF2;
   padding-top: 93px;
   padding-bottom: 189px; }
+  @media (max-width: 1110px) {
+    .footer {
+      padding-top: 50px;
+      padding-bottom: 80px; } }
 
 .title__secondary {
   font-family: Libre Franklin;
@@ -346,6 +354,9 @@ a {
   font-style: normal;
   font-size: 1.8rem;
   line-height: 1.22222; }
+  @media (max-width: 1110px) {
+    .social-list__item {
+      font-size: 1.6rem; } }
 
 .footer-content {
   display: grid;
@@ -355,6 +366,9 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px; }
+  @media (max-width: 1110px) {
+    .social-list {
+      gap: 10px; } }
 
 .contacts-list {
   display: flex;
