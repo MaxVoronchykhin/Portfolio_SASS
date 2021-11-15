@@ -3,6 +3,9 @@
     @include media-tablet {
         padding-top: 56px
     }
+    @include media-phone {
+        padding-top: 30px;
+    }
 }
 .title-secondary {
     @include text-title;
@@ -10,6 +13,10 @@
     margin-bottom: 76px;
     @include media-tablet {
         margin-bottom: 46px;
+    }
+    @include media-phone {
+        margin-bottom: 30px;
+        text-align: center;
     }
 }
 .about__text {
@@ -22,6 +29,9 @@
     margin-bottom: 30px;
     @include media-tablet {
         font-size: 1.6rem;
+    }
+    @include media-phone {
+        font-size: 1.4rem;
     }
 }
 .about__text-down {
@@ -36,4 +46,9 @@
         font-size: 1.6rem;
         margin-bottom: 46px;
     }
+    @include media-phone {
+        font-size: 1.4rem;
+        mask-border: 30px;
+    }
 }
+  

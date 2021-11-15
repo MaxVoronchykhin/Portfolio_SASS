@@ -60,10 +60,14 @@ li {
       width: 90%; } }
   @media (max-width: 767px) {
     .container {
-      width: 80%; } }
+      width: 85%; } }
 
 a {
   text-decoration: none; }
+
+@media (max-width: 767px) {
+  .title--centr {
+    text-align: center; } }
 
 .hero {
   height: 100vh;
@@ -79,6 +83,12 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 93px; }
+  @media (max-width: 767px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      gap: 20px; } }
 
 .logo {
   color: #FFFFFF;
@@ -87,6 +97,9 @@ a {
   font-style: normal;
   font-size: 2.4rem;
   line-height: 1.20833; }
+  @media (max-width: 767px) {
+    .logo {
+      text-align: center; } }
 
 .header-list {
   display: flex;
@@ -116,6 +129,9 @@ a {
   flex-direction: column;
   flex-grow: 1;
   margin-top: 145px; }
+  @media (max-width: 767px) {
+    .hero-content {
+      margin-top: 80px; } }
 
 .title-primary {
   font-family: Libre Franklin;
@@ -128,6 +144,9 @@ a {
   @media (max-width: 1110px) {
     .title-primary {
       text-align: center; } }
+  @media (max-width: 767px) {
+    .title-primary {
+      font-size: 5rem; } }
 
 .hero-content__text {
   font-family: Libre Franklin;
@@ -159,6 +178,9 @@ a {
   @media (max-width: 1110px) {
     .about {
       padding-top: 56px; } }
+  @media (max-width: 767px) {
+    .about {
+      padding-top: 30px; } }
 
 .title-secondary {
   font-family: Libre Franklin;
@@ -171,6 +193,10 @@ a {
   @media (max-width: 1110px) {
     .title-secondary {
       margin-bottom: 46px; } }
+  @media (max-width: 767px) {
+    .title-secondary {
+      margin-bottom: 30px;
+      text-align: center; } }
 
 .about__text {
   font-family: Libre Franklin;
@@ -183,6 +209,9 @@ a {
   @media (max-width: 1110px) {
     .about__text {
       font-size: 1.6rem; } }
+  @media (max-width: 767px) {
+    .about__text {
+      font-size: 1.4rem; } }
 
 .about__text-down {
   font-family: Libre Franklin;
@@ -196,6 +225,10 @@ a {
     .about__text-down {
       font-size: 1.6rem;
       margin-bottom: 46px; } }
+  @media (max-width: 767px) {
+    .about__text-down {
+      font-size: 1.4rem;
+      mask-border: 30px; } }
 
 .skills {
   background-color: #FFFAF2;
@@ -204,7 +237,11 @@ a {
   @media (max-width: 1110px) {
     .skills {
       padding-top: 56px;
-      padding-bottom: 100px; } }
+      padding-bottom: 80px; } }
+  @media (max-width: 767px) {
+    .skills {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
 
 .skills-content__img {
   width: 345px;
@@ -217,6 +254,12 @@ a {
   @media (max-width: 1110px) {
     .skills-content {
       gap: 55px; } }
+  @media (max-width: 767px) {
+    .skills-content {
+      flex-direction: column;
+      gap: 35px;
+      margin-left: auto;
+      margin-right: auto; } }
 
 .skills-list {
   width: 635px;
@@ -227,6 +270,10 @@ a {
   @media (max-width: 1110px) {
     .skills-list {
       width: 500px; } }
+  @media (max-width: 767px) {
+    .skills-list {
+      width: 100%;
+      gap: 15px; } }
 
 .skills-list-row {
   display: flex;
@@ -243,6 +290,9 @@ a {
   font-size: 1.8rem;
   line-height: 1.39;
   color: #333333; }
+  @media (max-width: 767px) {
+    .skills-list-row-title {
+      font-size: 1.3rem; } }
 
 .skills-list-row-text {
   display: flex;
@@ -252,6 +302,9 @@ a {
   font-size: 1.8rem;
   line-height: 1.39;
   color: #333333; }
+  @media (max-width: 767px) {
+    .skills-list-row-text {
+      font-size: 1.3rem; } }
 
 .skills-list-row-progress-bar-point {
   width: 381px;
@@ -260,12 +313,18 @@ a {
   @media (max-width: 1110px) {
     .skills-list-row-progress-bar-point {
       width: 320px; } }
+  @media (max-width: 767px) {
+    .skills-list-row-progress-bar-point {
+      width: 250px; } }
 
 .portfolio {
   padding-top: 93px; }
   @media (max-width: 1110px) {
     .portfolio {
       padding-top: 55px; } }
+  @media (max-width: 767px) {
+    .portfolio {
+      padding-top: 30px; } }
 
 .title-thirdy {
   font-family: Libre Franklin;
@@ -279,6 +338,11 @@ a {
     .title-thirdy {
       font-size: 1.6rem;
       margin-bottom: 30px; } }
+  @media (max-width: 767px) {
+    .title-thirdy {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      text-align: center; } }
 
 .portfolio-content {
   display: grid;
@@ -289,11 +353,24 @@ a {
     .portfolio-content {
       gap: 65px;
       margin-bottom: 90px; } }
+  @media (max-width: 767px) {
+    .portfolio-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 40px; } }
 
 .portfolio-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+  @media (max-width: 767px) {
+    .portfolio-text {
+      gap: 20px; } }
+
+@media (max-width: 767px) {
+  .arrows {
+    text-align: center; } }
 
 .arrow-right {
   transform: rotate(180deg);
@@ -306,6 +383,9 @@ a {
   font-size: 1.8rem;
   line-height: 1.67;
   color: #333333; }
+  @media (max-width: 767px) {
+    .portfolio-description {
+      font-size: 1.5rem; } }
 
 .portfolio_pics {
   display: grid;
@@ -315,6 +395,9 @@ a {
   @media (max-width: 1110px) {
     .portfolio_pics {
       gap: 23px; } }
+  @media (max-width: 767px) {
+    .portfolio_pics {
+      gap: 15px; } }
 
 .portfolio-img {
   width: 100%; }
@@ -339,6 +422,10 @@ a {
     .footer {
       padding-top: 50px;
       padding-bottom: 80px; } }
+  @media (max-width: 767px) {
+    .footer {
+      padding-top: 30px;
+      padding-bottom: 40px; } }
 
 .title__secondary {
   font-family: Libre Franklin;
@@ -347,6 +434,9 @@ a {
   font-size: 2.4rem;
   line-height: 1.20833;
   margin-bottom: 51px; }
+  @media (max-width: 767px) {
+    .title__secondary {
+      margin-bottom: 25px; } }
 
 .social-list__item {
   font-family: Libre Franklin;
@@ -357,6 +447,9 @@ a {
   @media (max-width: 1110px) {
     .social-list__item {
       font-size: 1.6rem; } }
+  @media (max-width: 767px) {
+    .social-list__item {
+      font-size: 1.3rem; } }
 
 .footer-content {
   display: grid;
@@ -382,6 +475,9 @@ a {
   font-size: 1.8rem;
   line-height: 1.22222;
   color: #333333; }
+  @media (max-width: 767px) {
+    .contact-mail {
+      font-size: 1.3rem; } }
 
 .contact-phone {
   font-family: Libre Franklin;
@@ -390,3 +486,6 @@ a {
   font-size: 1.5rem;
   line-height: 1.2;
   color: #333333; }
+  @media (max-width: 767px) {
+    .contact-phone {
+      font-size: 1.3rem; } }

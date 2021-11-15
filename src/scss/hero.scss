@@ -12,10 +12,19 @@
     display: flex;
     justify-content: space-between;
     padding-top: 93px;
+    @include media-phone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 20px;
+    }
 }
 .logo {
     color: #FFFFFF;
     @include text-title;
+    @include media-phone {
+        text-align: center;
+    }
 }
 .header-list {
     display: flex;
@@ -45,12 +54,18 @@
     flex-direction: column;
     flex-grow: 1;
     margin-top: 145px;
+    @include media-phone {
+        margin-top: 80px
+    }
 }
 .title-primary {
     @include text-main;
     margin-bottom: 26px;
     @include media-tablet {
         text-align: center;
+    }
+    @include media-phone {
+        font-size: 5rem;
     }
 }
 .hero-content__text {

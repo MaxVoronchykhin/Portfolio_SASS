@@ -6,15 +6,25 @@
         padding-top: 50px;
         padding-bottom: 80px;
     }
+    @include media-phone {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
 }
 .title__secondary {
     @include text-title;
     margin-bottom: 51px;
+    @include media-phone {
+        margin-bottom: 25px
+    }
 }
 .social-list__item {
     @include text-title-thirdy;
     @include media-tablet {
         font-size: 1.6rem;
+    }
+    @include media-phone {
+        font-size: 1.3rem;
     }
 }
 .footer-content {
@@ -37,6 +47,9 @@
 .contact-mail {
     @include text-title-thirdy;
     color: #333333;
+    @include media-phone {
+        font-size: 1.3rem;
+    }
 }
 .contact-phone {
     font-family: Libre Franklin;
@@ -45,4 +58,7 @@
     font-size: 1.5rem;
     line-height: 1.2;
     color: #333333;
+    @include media-phone {
+        font-size: 1.3rem;
+    }
 }
